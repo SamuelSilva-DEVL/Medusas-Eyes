@@ -1,10 +1,7 @@
-import { Button } from 'bootstrap';
 import React from 'react';
 import { Container, Content } from '../styles';
-import Uploade from './Uploade'
-import api from 'axios'
 
-// import { Container } from './styles';
+import {BsCheck, BsX} from "react-icons/bs";
 
 export default () => 
    <>
@@ -19,13 +16,11 @@ export default () =>
             <div className="botoesConfirm">
                 <button onClick={() => {
                     window.location.href = "Uploade";
-                    
-                } }>Sim</button>
+                } }><BsCheck/></button>
             
                 <button onClick={() => {
                     window.location.href = "/";
-                }}>Não
-                </button>
+                }}><BsX /></button>
             </div>
         </Content>
     </Container>

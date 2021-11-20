@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
-
 }
-.home{
+.home {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -18,17 +17,22 @@
   margin-top: -32vh;
 }
 
-.filter{
+/* filtro da tabela na pagina analises */
+.filter {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-left: 20vw;
   margin-right: 5vw;
-  margin-top: 10vh;
+  margin-top: 5vh;
+}
+
+.filter button {
+  margin-top: -2.3vh;
 }
 
 .team,
-.about{
+.about {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -36,22 +40,78 @@
   font-size: 3rem;
 }
 
-
 /* estilização nome apresentação paginas */
-.txtUp{
+.txtUp {
   margin-left: 17vw;
   margin-top: 5vh;
 }
-.txtHm{
+.txtHm {
   margin-left: 17vw;
   margin-top: 5vh;
 }
 
 /* cabeçalho da tabela */
-.headColl{
+.headColl {
   text-align: center;
 }
 
-.txt{
-  margin-right: 15px;
+.txt {
+  margin-right: 5px;
+  text-transform: uppercase;
+}
+
+.content {
+  margin-top: 15vw;
+  margin-left: 80vh;
+}
+
+.botoesConfirm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* .ContainerFilter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0;
+}
+
+.ContainerFilter button {
+  margin-top: 0;
+} */
+
+.containerInfo {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 50px 50px;
+  margin-left: 350px;
+  font-size: 1.5rem;
+}
+
+/* botao de imagens analisadas */
+.botaoAnalise {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -95vh;
+  margin-right: 55px;
+}
+
+/* .table-bordered {
+  margin: auto -150px auto 250px;
+} */
+
+.table-bordered thead h2 {
+  font-size: 1.5rem;
+}
+.table-bordered tbody h2 {
+  font-size: 1rem;
+}
+
+.table-bordered li {
+  list-style: none;
 }
